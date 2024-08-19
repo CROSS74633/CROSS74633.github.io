@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="Dom.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="EU - Copia.jpg" alt="Minha Foto" class="profile-image">
+            <div class="header-text">
+                <h1>Kalléo Kaefer Roque Antunes</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Nome: Kalléo Kaefer</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="grid-container">
+            <div class="grid-item">Projeto 1</div>
+            <div class="grid-item">Projeto 2</div>
+            <div class="grid-item">Projeto 3</div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contato-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meu Portfólio</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
