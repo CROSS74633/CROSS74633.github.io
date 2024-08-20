@@ -1,11 +1,13 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #7dbfe3;
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #000000;
+    color: #87d7f9;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -46,7 +48,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #82c8df;
     text-decoration: none;
 }
 
@@ -55,7 +57,7 @@ section {
 }
 
 h2 {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #7ce7ff;
     padding-bottom: 0.5rem;
 }
 
@@ -66,14 +68,14 @@ h2 {
 }
 
 .grid-item {
-    background: #eee;
+    background: #ffffff;
     padding: 1rem;
     text-align: center;
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: #000000;
+    color: #89defd;
     text-align: center;
     padding: 1rem;
 }
@@ -86,13 +88,13 @@ form {
 
 form input, form textarea {
     padding: 0.5rem;
-    border: 1px solid #ccc;
+    border: 3px solid #5cbbe3;
     border-radius: 5px;
 }
 
 form button {
-    background: #333;
-    color: #fff;
+    background: #4a3b44;
+    color: #ffffff;
     border: none;
     padding: 0.5rem;
     border-radius: 5px;
@@ -100,5 +102,5 @@ form button {
 }
 
 form button:hover {
-    background: #555;
+    background: #8ad3df;
 }
